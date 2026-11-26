@@ -33,30 +33,23 @@ function App() {
   ];
 
   const projects = [
-    {
-      title: "Grocery Kadai",
-      category: "Full Stack Web Application",
-      description:
-        "A grocery shopping application with product browsing, user authentication, shopping cart functionality and database connectivity.",
-      tech: ["React", "Node.js", "MongoDB"],
-      link: "https://github.com/",
-    },
-    {
-      title: "JavaScript Calculator",
-      category: "Frontend Development",
-      description:
-        "A responsive calculator application built using HTML, CSS and JavaScript with arithmetic operations.",
-      tech: ["HTML", "CSS", "JavaScript"],
-      link: "https://github.com/",
-    },
-    {
-      title: "Developer Portfolio",
-      category: "Personal Website",
-      description:
-        "A responsive personal portfolio website showcasing my technical skills, projects and career interests.",
-      tech: ["React", "CSS", "Vite"],
-      link: "https://github.com/",
-    },
+   {
+  title: "Grocery Kadai",
+  category: "Full Stack Web Application",
+  description:
+    "A grocery shopping application with product browsing, user authentication, shopping cart functionality and database connectivity.",
+  tech: ["React", "Node.js", "MongoDB"],
+  link: "https://github.com/sujiththangaraj565/grocery-kadai",
+},
+
+{
+  title: "Developer Portfolio",
+  category: "Personal Website",
+  description:
+    "A responsive personal portfolio website showcasing my technical skills, projects and career interests.",
+  tech: ["React", "CSS", "Vite"],
+  link: "https://github.com/sujiththangaraj565/sujith-portfolio",
+},
   ];
 
   const certifications = [
@@ -395,36 +388,49 @@ function App() {
         </div>
       </section>
 
-      <section className="section contact-section" id="contact">
-        <div className="contact-box">
-          <span className="section-label">LET'S CONNECT</span>
+     
+<section className="section contact-section" id="contact">
+  <div className="contact-box">
+    <span className="section-label">LET'S CONNECT</span>
 
-          <h2>
-            Have an opportunity?
-            <br />
-            <span>Let's talk.</span>
-          </h2>
+    <h2>
+      Have an opportunity?
+      <br />
+      <span>Let's talk.</span>
+    </h2>
 
-          <p>
-            I'm interested in internships, fresher opportunities,
-            collaborations and exciting development projects.
-          </p>
+    <p>
+      I'm interested in internships, fresher opportunities,
+      collaborations and exciting development projects.
+    </p>
 
-          <a href="mailto:yourmail@example.com" className="primary-button">
-            Send Me an Email <Mail size={17} />
-          </a>
+    <a
+      href="mailto:sujiththangaraj5650@gmail.com"
+      className="primary-button"
+    >
+      Send Me an Email <Mail size={17} />
+    </a>
 
-          <div className="contact-socials">
-            <a href="https://github.com/" target="_blank" rel="noreferrer">
-              GitHub
-            </a>
+    <div className="contact-socials">
+      <a
+        href="https://github.com/sujiththangaraj565"
+        target="_blank"
+        rel="noreferrer"
+      >
+        GitHub
+      </a>
 
-            <a href="https://linkedin.com/" target="_blank" rel="noreferrer">
-              LinkedIn
-            </a>
-          </div>
-        </div>
-      </section>
+      <a
+        href="https://www.linkedin.com/in/j-t-sujith-06754431b"
+        target="_blank"
+        rel="noreferrer"
+      >
+        LinkedIn
+      </a>
+    </div>
+  </div>
+</section>
+
 
       <footer className="footer">
         <a href="#home" className="logo">
