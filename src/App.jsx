@@ -354,6 +354,21 @@ function App() {
               </p>
             </div>
           </div>
+          <div className="timeline-item">
+  <div className="timeline-icon">
+    <Code2 />
+  </div>
+
+  <div className="timeline-content">
+    <span className="timeline-date">Leadership</span>
+    <h3>Executive Member – Cyber Crews Association '25</h3>
+    <p>Department of Computer Science, Kongu Arts and Science College</p>
+    <p className="timeline-description">
+      Served as an Executive Member, contributing to association activities
+      and departmental initiatives.
+    </p>
+  </div>
+</div>
 
           <div className="timeline-item">
             <div className="timeline-icon">
@@ -369,6 +384,20 @@ function App() {
               </p>
             </div>
           </div>
+          <div className="timeline-item">
+  <div className="timeline-icon">
+    <GraduationCap />
+  </div>
+
+  <div className="timeline-content">
+    <span className="timeline-date">2017 – 2021</span>
+    <h3>Scout Rajya Puraskar Award</h3>
+    <p>Served as a Scout Boy</p>
+    <p className="timeline-description">
+      Received the Scout Rajya Puraskar Award for participation and service as a Scout Boy.
+    </p>
+  </div>
+</div>
 
           <div className="timeline-item">
             <div className="timeline-icon">
